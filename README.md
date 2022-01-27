@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+# https://www.xenonstack.com/insights/reactjs-project-structure
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
