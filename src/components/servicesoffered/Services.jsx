@@ -10,7 +10,7 @@ const Services = () => {
                     <h1 className="text-center">Services</h1>
                     <div className="row">
                         {ServicesData.map((obj, id) => {
-                            return <CardFA key={id} title={obj.title} description={obj.description} iconclassName={obj.iconClass} />;
+                            return <CardFA key={id} title={obj.title} description={obj.description} iconClass={obj.iconClass} />;
                         })}
                     </div>
                 </div>
