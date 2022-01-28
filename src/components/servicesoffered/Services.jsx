@@ -1,16 +1,16 @@
 import React from 'react';
-import Data from './Data'
-import Card from '../common/Card';
+import ServicesData from './ServicesData'
+import CardFA from '../common/card/CardFA';
 
 const Services = () => {
     return (
         <>
             <section id="services">
                 <div className="container">
-                    <h1 class="text-center">Services</h1>
+                    <h1 className="text-center">Services</h1>
                     <div className="row">
-                        {Data.map((obj, id) => {
-                            return <Card key={id} title={obj.title} description={obj.description} iconClass={obj.iconClass} />;
+                        {ServicesData.map((obj, id) => {
+                            return <CardFA key={id} title={obj.title} description={obj.description} iconclassName={obj.iconClass} />;
                         })}
                     </div>
                 </div>

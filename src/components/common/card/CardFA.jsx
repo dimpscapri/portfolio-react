@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = (props) => {
+const CardFA = (props) => {
     return (
         <>
             <div className="col-lg-4 mt-4">
@@ -19,4 +19,4 @@ const Card = (props) => {
     );
 };
 
-export default Card;
+export default CardFA;

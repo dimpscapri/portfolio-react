@@ -1,4 +1,4 @@
-const Data = [
+const ServicesData = [
     {
         id: 1,
         title: "Website Development",
@@ -43,4 +43,4 @@ const Data = [
     }
 ]
 
-export default Data;
+export default ServicesData;
